@@ -21,7 +21,7 @@ spec:
               name: webapp
           volumeMounts:
             - name: secrets-for-db
-              mountPath: /secrets
+              mountPath: /app/secrets
       volumes:
         - name: secrets-for-db
           secret:
